@@ -1,5 +1,10 @@
 def my_hash
-  my_hash = {"song" => "Bury It", "album" => "Every Open Eye", "artist" => "CHVRCHES", "guest_artist" => "Hayley Williams"}
+  my_hash = {
+    "song" => "Bury It",
+    "album" => "Every Open Eye",
+    "artist" => "CHVRCHES",
+    "guest_artist" => "Hayley Williams"
+  }
 end
 
 
@@ -14,8 +19,7 @@ def retrieval
                   "oil paintings" => 3
                  }
 
-  # Look up the value of the "oil paintings" key in the shipping_manifest hash below
-
+  shipping_manifest["oil paintings"]
 end
 
 def adding
